@@ -1,8 +1,8 @@
 /**************************/
-/* BELOW 908px (Tablets) */
+/* BELOW 1200px (Laptops) */
 /**************************/
 
-@media (max-width: 48em) {
+@media (max-width: 75em) {
   .container {
     padding: 0 1rem;
   }
@@ -13,5 +13,37 @@
     align-items: center;
     gap: 3rem;
     margin-bottom: 8rem;
+  }
+
+  .act-quick--section {
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .act-quick--section div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .act-quick--section img {
+    width: 100%;
+  }
+
+  .act-quick--section h2 {
+    max-width: 100rem;
+  }
+
+  .act-quick--section p {
+    max-width: 100rem;
+  }
+
+  .act-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .submit-button {
+    margin: 0 auto;
   }
 }
