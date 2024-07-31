@@ -16,13 +16,14 @@
   }
 
   .hero-form {
-    margin: 0 1rem;
+    margin: 0;
   }
 
   .act-quick--section {
     align-items: center;
     flex-direction: column-reverse;
     justify-content: center;
+    margin-bottom: 8rem;
   }
 
   .act-quick--section div {
@@ -49,6 +50,7 @@
 
   .features-section {
     padding: 4rem 2rem;
+    margin-bottom: 8rem;
   }
 
   .features-title {
@@ -64,6 +66,10 @@
     gap: 6rem;
   }
 
+  .improve-chances--section {
+    margin-bottom: 8rem;
+  }
+
   .chances-boxes {
     display: flex;
     flex-direction: column;
@@ -75,6 +81,7 @@
 
   .veteran-section {
     padding: 4rem 2rem;
+    margin-bottom: 8rem;
   }
 
   /*  */

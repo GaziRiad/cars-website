@@ -9,6 +9,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -86,7 +87,7 @@ body {
 
 .hero-form {
   /* height: 80rem; */
-  width: 40rem;
+  max-width: 40rem;
   border: solid 4px #c9b55b;
   border-radius: 12px;
 
@@ -153,6 +154,11 @@ body {
 .checkbox-container p {
   font-size: 1.4rem;
   line-height: 1.4;
+}
+
+.checkbox-container a {
+  color: inherit;
+  font-weight: 500;
 }
 
 .hero-form .submit-button {
@@ -366,6 +372,8 @@ body {
   transition: all 0.3s;
 
   display: flex;
+  width: max-content;
+  text-decoration: none;
   align-items: center;
   gap: 0.4rem;
 }
