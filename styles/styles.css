@@ -216,6 +216,50 @@ body {
   /* height: 32rem; */
   border-radius: 0px;
 }
+/* /////////////////////////////////// */
+/* FEATURES SECTION */
+/* /////////////////////////////////// */
+
+.features-section {
+  margin-bottom: 20rem;
+  background-color: rgb(202, 198, 180, 0.2);
+  padding: 12rem;
+}
+
+.features-title {
+  font-size: 4.2rem;
+  line-height: 3.2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.feature-box ion-icon {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0 auto;
+  color: #f97316;
+  background: #ffedd5;
+  border-radius: 100%;
+  padding: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.4;
+}
 
 /* REUSABLE COMPONENT */
 .submit-button {
