@@ -76,6 +76,13 @@
   /*  */
   .submit-button {
     margin: 0 auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2.4rem 1.2rem;
+  }
+
+  .submit-button ion-icon {
+    display: none;
   }
 
   .section-title {
