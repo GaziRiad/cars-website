@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #212529;
+  position: relative;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  height: 9rem;
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 3rem;
+}
+
+.header-title {
+  color: #c9b55b;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 8rem;
+}
+
+.hero-main {
+  flex: 1;
+}
+
+.hero-title,
+.text-span {
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 1.4;
+  text-transform: uppercase;
+  /* text-align: center; */
+  color: #ff0000;
+}
+
+.text-span {
+  display: block;
+  /* text-align: center; */
+  /* margin-left: -8rem; */
+}
+
+.hero-title {
+  margin-bottom: 1.2rem;
+}
+
+.hero-text {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  margin-bottom: 4.4rem;
+}
+
+.hero-img {
+  width: 100%;
+  border: solid 4px #ff0000;
+}
+
+.hero-form {
+  /* height: 80rem; */
+  width: 40rem;
+  border: solid 4px #c9b55b;
+  border-radius: 12px;
+
+  padding: 2rem 2.5rem;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  max-width: 24rem;
+  line-height: 1.4;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.input-box label {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.input-box select {
+  padding: 0.5rem 0.65rem;
+  height: 4.8rem;
+  border: 1px solid #a3bac6;
+  border-radius: 3px;
+  background-color: #ecf8fd;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  height: 3.6rem;
+  border: 1px solid #a3bac6;
+  border-radius: 3px;
+  background-color: #ecf8fd;
+}
+
+.details-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.checkbox-container {
+  /* display: flex;
+  align-items: center; */
+  gap: 1rem;
+}
+
+.checkbox-container input {
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.checkbox-container p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* /////////////////////////////////////// */
+/* act-quick--section */
+/* /////////////////////////////////////// */
+
+.act-quick--section {
+  background-color: #d4d4d4;
+  height: 40rem;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/queries.css" />
+
+    <title>Car Accident settlments</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <p class="header-title">FILE YOUR FREE CLAIM TODAY!</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section container">
+        <div class="hero-main">
+          <!-- <span class="text-span">ATTENTION!</span> -->
+          <h1 class="hero-title">
+            Injured in a car crash? <br />
+            We're here to help you!
+          </h1>
+
+          <p class="hero-text">
+            We may be able to help you maximize your
+            <strong>injury compensation</strong>. Get the justice you deserve.
+          </p>
+
+          <img
+            src="./assets/images/car1.jpg"
+            class="hero-img"
+            alt="Car after an accident"
+          />
+        </div>
+        <form class="hero-form">
+          <h2 class="form-title">Get your FREE Case Review Here</h2>
+
+          <div class="input-box">
+            <label for="suffer_abuse"
+              >Were you injured in your car accident?</label
+            >
+            <select name="suffer_abuse" id="suffer_abuse" required>
+              <option value="" disabled="" selected="">-- Select --</option>
+              <option value="I was injured">I was injured</option>
+              <option value="I was not injured at all">
+                I was not injured at all
+              </option>
+            </select>
+          </div>
+          <!--  -->
+          <div class="input-box">
+            <label for="abuse_type">Are you at fault for the accident?</label>
+            <select name="abuse_type" id="abuse_type" required>
+              <option value="" disabled="" selected="">-- Select --</option>
+              <option value="No I am not at fault">
+                No I was not at fault
+              </option>
+              <option value="Yes it was my fault">Yes it was my fault</option>
+            </select>
+          </div>
+          <!--  -->
+          <div class="input-box">
+            <label for="date_accident">When did the accident take place?</label>
+            <select name="date_accident" id="date_accident" required>
+              <option value="" disabled="" selected="">-- Select --</option>
+              <option value="Within the last year">Within the last year</option>
+              <option value="1-2 years ago">1-2 years ago</option>
+              <option value="over 2 years ago">Over 2 years ago</option>
+            </select>
+          </div>
+          <!--  -->
+          <div class="input-box">
+            <label for="attorney"
+              >Are you currently represented by a lawyer for the
+              accident?</label
+            >
+            <select name="attorney" id="attorney" required>
+              <option value="" disabled="" selected="">-- Select --</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <!--  -->
+          <!-- PERSONAL DETAILS -->
+          <!--  -->
+          <div class="details-box">
+            <div class="input-box">
+              <label for="first_name">First Name</label>
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                maxlength="256"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="last_name">Last Name</label>
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                maxlength="256"
+                required
+              />
+            </div>
+          </div>
+          <!--  -->
+          <div class="input-box">
+            <label for="email_address">Email Address</label>
+            <input
+              type="email"
+              name="email_address"
+              id="email_address"
+              pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+              required
+            />
+          </div>
+          <!--  -->
+          <div class="details-box">
+            <div class="input-box">
+              <label for="phone_home">Phone Number</label>
+              <input
+                type="tel"
+                name="phone_home"
+                id="phone_home"
+                maxlength="256"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="zip">Zip Code</label>
+              <input
+                type="tel"
+                name="zip_code"
+                id="zip"
+                pattern="^\D*(\d\D*){5,}$"
+                required
+              />
+            </div>
+          </div>
+          <!--  -->
+          <div class="input-box">
+            <label for="description"
+              >Describe the accident. What happened?</label
+            >
+            <input
+              type="email"
+              name="description"
+              id="description"
+              pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            />
+          </div>
+          <!--  -->
+          <div class="checkbox-container">
+            <input type="checkbox" required />
+            <p>
+              By checking this box and clicking the "Agree and Submit" button
+              below, I represent that I am 18+ years of age and have read and
+              agreed to the Quantum Digital Media, LLC Terms and Conditions and
+              Privacy Policy; I consent to the transfer of information that I
+              provide on this site to third-party legal service providers and
+              non-legal service providers, third party partners and their
+              affiliates and service providers; I agree to be contacted by email
+              & telephone, which may include artificial or pre-recorded calls
+              and/or SMS text messages, delivered via automated technology, to
+              the email and phone number that I have provided.
+            </p>
+          </div>
+        </form>
+      </section>
+
+      <!--  -->
+
+      <section class="act-quick--section"></section>
+    </main>
+  </body>
+</html>
