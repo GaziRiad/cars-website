@@ -48,7 +48,7 @@
   }
 
   .features-section {
-    padding: 4rem;
+    padding: 4rem 2rem;
   }
 
   .features-title {
@@ -73,12 +73,16 @@
     text-align: center;
   }
 
+  .veteran-section {
+    padding: 4rem 2rem;
+  }
+
   /*  */
   .submit-button {
     margin: 0 auto;
     font-size: 1.8rem;
     font-weight: 600;
-    padding: 2.4rem 1.2rem;
+    padding: 1.8rem 2rem;
   }
 
   .submit-button ion-icon {
