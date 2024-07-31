@@ -15,6 +15,10 @@
     margin-bottom: 8rem;
   }
 
+  .hero-form {
+    margin: 0 1rem;
+  }
+
   .act-quick--section {
     align-items: center;
     flex-direction: column-reverse;
@@ -60,8 +64,30 @@
     gap: 6rem;
   }
 
+  .chances-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chance-title {
+    text-align: center;
+  }
+
   /*  */
   .submit-button {
     margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .footer-section ul {
+    flex-direction: column;
+    gap: 1.2rem;
   }
 }
