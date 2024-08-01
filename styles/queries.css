@@ -64,6 +64,7 @@
   .features {
     grid-template-columns: repeat(2, 1fr);
     gap: 6rem;
+    text-align: center;
   }
 
   .improve-chances--section {
