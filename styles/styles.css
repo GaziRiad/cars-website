@@ -122,6 +122,11 @@ body {
   background-color: #ecf8fd;
 }
 
+option {
+  padding: 0.5rem 0.65rem;
+  height: 4.8rem;
+}
+
 .input-box input {
   width: 100%;
   padding: 0.5rem 0.65rem;
